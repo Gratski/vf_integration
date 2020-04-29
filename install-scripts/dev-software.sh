@@ -41,3 +41,6 @@ kubectl --kubeconfig=/etc/kubernetes/admin.conf taint nodes --all node-role.kube
 install -o 0 -d /home/$(id -nu 0)/.kube
 install -o 0 /etc/kubernetes/admin.conf /home/$(id -nu 0)/.kube/config
 
+# Export variable for kubeconfig
+export KUBECONFIG=/etc/kubernetes/admin.conf
+

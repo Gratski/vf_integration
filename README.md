@@ -12,3 +12,9 @@ To run the installer follow the steps:
 
 - Run the install script: `./dev-software.sh`
 
+## Deploy **nginx** 
+
+To deploy nginx follow the steps:
+
+- Apply: `kubectl apply -f dep-nginx.yaml`
+
